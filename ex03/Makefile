@@ -6,7 +6,7 @@
 #    By: stopp <stopp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/13 17:55:12 by stopp             #+#    #+#              #
-#    Updated: 2025/01/10 15:17:34 by stopp            ###   ########.fr        #
+#    Updated: 2025/01/10 16:42:41 by stopp            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,6 +30,7 @@ SRC :=	src/Bureaucrat.cpp\
 		src/PresidentialPardonForm.cpp\
 		src/RobotomyRequestForm.cpp\
 		src/ShrubberyCreationForm.cpp\
+		src/Intern.cpp\
 		src/main.cpp \
 
 OBJ := $(SRC:%.cpp=$(OBJDIR)/%.o)

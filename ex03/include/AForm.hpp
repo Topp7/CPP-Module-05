@@ -6,7 +6,7 @@
 /*   By: stopp <stopp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 20:38:05 by soren             #+#    #+#             */
-/*   Updated: 2025/01/10 15:04:47 by stopp            ###   ########.fr       */
+/*   Updated: 2025/01/10 16:54:04 by stopp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ class	AForm
 		AForm(const std::string &name, int GradetoSign, int GradetoExec, bool isSigned, const std::string &target);
 		AForm(const AForm &copy);
 		AForm &operator=(const AForm &copy);
-		~AForm();
+		virtual ~AForm() = 0;
 
 		int					getGradetoExec(void) const;
 		int					getGradetoSign(void) const;

@@ -6,7 +6,7 @@
 /*   By: stopp <stopp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 11:58:37 by soren             #+#    #+#             */
-/*   Updated: 2025/01/10 15:24:15 by stopp            ###   ########.fr       */
+/*   Updated: 2025/01/10 16:55:50 by stopp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include "../include/ShrubberyCreationForm.hpp"
 #include "../include/RobotomyRequestForm.hpp"
 #include "../include/PresidentialPardonForm.hpp"
+#include "../include/Intern.hpp"
 
 int	main(void)
 {
@@ -61,4 +62,11 @@ int	main(void)
 	Scholz.executeForm(Robo);
 	Scholz.signForm(Pardon);
 	Scholz.executeForm(Pardon);
+
+	Intern	poorGuy;
+	AForm	*Pardon_ptr;
+
+	Pardon_ptr = poorGuy.makeForm("Presidential Pardon", "XD");
+	Lindner.signForm(*Pardon_ptr);
+	delete Pardon_ptr;
 }
