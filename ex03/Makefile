@@ -6,12 +6,12 @@
 #    By: stopp <stopp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/13 17:55:12 by stopp             #+#    #+#              #
-#    Updated: 2025/01/10 16:42:41 by stopp            ###   ########.fr        #
+#    Updated: 2025/01/11 17:38:43 by stopp            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Project name
-NAME := ex02
+NAME := ex03
 
 # Define ANSI color codes
 GREEN := \033[0;32m

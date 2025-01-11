@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Bureaucrat.hpp                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: soren <soren@student.42.fr>                +#+  +:+       +#+        */
+/*   By: stopp <stopp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 10:19:56 by soren             #+#    #+#             */
-/*   Updated: 2024/12/23 12:09:48 by soren            ###   ########.fr       */
+/*   Updated: 2025/01/11 17:25:38 by stopp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 class	Bureaucrat
 {
 	private:
-		std::string	_name;
+		const std::string	_name;
 		int			_grade;
 
 	public:
